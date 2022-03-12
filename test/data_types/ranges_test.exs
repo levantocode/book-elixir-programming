@@ -1,4 +1,7 @@
 defmodule RangesTest do
+  use ExUnit.Case
+  doctest Ranges
+  import Ranges
 
   test "range 1 to 10" do
     assert range_one_to_five() == [1, 2, 3, 4, 5]
